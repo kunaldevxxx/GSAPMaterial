@@ -1,0 +1,40 @@
+/*GREENSOCK ANIMATION Platform*/ full form of GSAP
+Open Source
+its a animation library
+we have to use its cdn 
+what is cdn ??
+its 
+content delievery network
+gsap.
+initial position
+methods
+gsap.to inital to final
+gsap.from  final to inital 
+
+{
+    object properties and values
+    separation using ,
+    delay after this will it will run
+}
+kunalkhare = lowercase
+KUNALKHARE=uppercase
+KunalKhare=capitalise
+kunalKhare=camelcase
+gsap.to("#box",{
+  x:800,
+  y:500,
+  duration:3,
+  delay:1,
+  backgroundColor:"blue",
+  rotate:360,
+  scale:0.5
+})
+gsap.from("#box",{
+    x:800,
+    y:500,
+    duration:3,
+    delay:1,
+    backgroundColor:"blue",
+    rotate:360,
+    scale:0.5
+})
