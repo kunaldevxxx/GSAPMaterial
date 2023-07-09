@@ -1,8 +1,13 @@
-gsap.to("h1",{
-  x:600,
-  duration:1,
-  delay:0.5,
-  stagger:1,
-  repeat:1,
-  yoyo:true
+var tl= gsap.timeline()
+tl.to("h1",{
+    x:600,
+    duration:1
+})
+tl.to("h2",{
+    x:700,
+    duration:1
+})
+tl.to("h3",{
+    x:900,
+    duration:1
 })
