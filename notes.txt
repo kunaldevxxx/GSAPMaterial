@@ -38,3 +38,5 @@ gsap.from("#box",{
     rotate:360,
     scale:0.5
 })
+-1 for infinite
+stagger property for same id like h1 but having some interval

@@ -1,18 +1,7 @@
 gsap.to("h1",{
   x:600,
-  color:"purple",
-  duration:2,
-  delay:1
+  duration:1,
+  delay:0.5,
+  stagger:1,
+  repeat:1
 })
-gsap.to("h2",{
-    x:600,
-    color:"pink",
-    duration:3,
-    delay:2
-  })
-gsap.to("h3",{
-    x:600,
-    color:"yellow",
-    duration:4,
-    delay:3
-  })
