@@ -3,5 +3,6 @@ gsap.to("h1",{
   duration:1,
   delay:0.5,
   stagger:1,
-  repeat:1
+  repeat:1,
+  yoyo:true
 })

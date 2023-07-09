@@ -40,3 +40,4 @@ gsap.from("#box",{
 })
 -1 for infinite
 stagger property for same id like h1 but having some interval
+yoyo property for yoyo movement 
